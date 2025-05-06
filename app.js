@@ -3,10 +3,10 @@ const cors = require('cors');
 const app = express();
 require('dotenv').config();
 
-// ✅ Updated CORS configuration
+const cors = require('cors');
 app.use(cors({
-  origin: 'http://localhost:3000', // Only allow your frontend
-  credentials: true               // Allow cookies / sessions
+  origin: ['http://localhost:3000', 'https://football-stats-frontend-ofqhtkb7d-kennys-projects-c2892c47.vercel.app'],
+  credentials: true
 }));
 
 app.use(express.json());
