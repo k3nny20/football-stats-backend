@@ -6,7 +6,7 @@ require('dotenv').config();
 //allow localhost and deployed frontend
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://football-stats-frontend-ofqhtkb7d-kennys-projects-c2892c47.vercel.app'
+  'https://football-stats-frontend-hetdolytf-kennys-projects-c2892c47.vercel.app'
 ];
 
 app.use(cors({
